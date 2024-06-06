@@ -1,4 +1,4 @@
-package com.anafthdev.happyvibes.theme
+package com.anafthdev.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

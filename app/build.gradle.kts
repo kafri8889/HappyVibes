@@ -52,6 +52,7 @@ android {
 
 dependencies {
 
+    implementation(project(":core:ui"))
     implementation(project(":feature:onboarding"))
 
     implementation(platform(libs.androidx.compose.bom))
