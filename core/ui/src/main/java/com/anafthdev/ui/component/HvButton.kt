@@ -39,7 +39,7 @@ fun HvButton(
 ) {
     Button(
         contentPadding = contentPadding,
-        shape = RoundedCornerShape(2.dp),
+        shape = RoundedCornerShape(4.dp),
         onClick = onClick,
         modifier = modifier,
         colors = ButtonDefaults.buttonColors(

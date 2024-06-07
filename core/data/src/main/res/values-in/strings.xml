@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_in">Masuk</string>
+    <string name="sign_up">Daftar</string>
+    <string name="lets_register_you_to">Ayo Daftarkan Anda Ke</string>
+    <string name="happy_vibes">HappyVibes!</string>
+    <string name="name">Nama</string>
+    <string name="username">Nama pengguna</string>
+    <string name="email">Email</string>
+    <string name="password">Kata sandi</string>
+    <string name="confirm_password">Konfirmasi kata sandi</string>
+    <string name="register_with_google">Daftar dengan google</string>
+    <string name="or_register_with">Atau Daftar Dengan</string>
+    <string name="lets_sign_you_in">Ayo Masukkan Anda</string>
+    <string name="lets_sign_you_in_sub">Oh, Hai! Selamat datang kembali di HappyVibes! Kami harap Anda selalu dalam suasana bahagia!</string>
+    <string name="remember_me">Ingat saya</string>
+    <string name="forgot_password">Lupa kata sandi?</string>
+    <string name="or_login_with">Atau Masuk Dengan</string>
+    <string name="login_with_google">Masuk Dengan Google</string>
+    <string name="dont_have_an_account">Tidak Punya Akun?</string>
+    <string name="register_now">Daftar Sekarang</string>
+    <string name="have_an_account">Punya Akun?</string>
+</resources>

@@ -8,3 +8,6 @@ val ColorScheme.accent: Color
 
 val ColorScheme.onAccent: Color
     get() = Color(0xff282828)
+
+val ColorScheme.textGray: Color
+    get() = Color(0xff5C5C5C)

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="lets_register_you_to">Let\'s Register You To</string>
+    <string name="happy_vibes">HappyVibes!</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="register_with_google">Register with google</string>
+    <string name="or_register_with">Or Register With</string>
+    <string name="lets_sign_you_in">Let\'s Sign You In</string>
+    <string name="lets_sign_you_in_sub">Oh, Hi! Welcome back to HappyVibes! We hopes you always in happy vibe!</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or_login_with">Or Login With</string>
+    <string name="login_with_google">Login With Google</string>
+    <string name="dont_have_an_account">Don\'t Have An Account?</string>
+    <string name="register_now">Register Now</string>
+    <string name="have_an_account">Have An Account?</string>
+</resources>

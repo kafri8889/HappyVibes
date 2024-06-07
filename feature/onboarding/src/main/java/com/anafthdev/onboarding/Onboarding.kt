@@ -27,6 +27,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavOptionsBuilder
+import com.anafthdev.data.Destination
+import com.anafthdev.data.R
 import com.anafthdev.ui.component.HvButton
 import com.anafthdev.ui.extension.accent
 
@@ -38,12 +41,17 @@ private fun OnboardingScreenPreview() {
             .fillMaxSize()
             .background(Color.White)
     ) {
-        OnboardingScreen()
+        OnboardingScreen(
+            navigateTo = { _, _ -> }
+        )
     }
 }
 
 @Composable
-fun OnboardingScreen(modifier: Modifier = Modifier) {
+fun OnboardingScreen(
+    modifier: Modifier = Modifier,
+    navigateTo: (Destination, builder: (NavOptionsBuilder.() -> Unit)?) -> Unit
+) {
     val context = LocalContext.current
 
     val image = remember(context) {
@@ -104,7 +112,7 @@ fun OnboardingScreen(modifier: Modifier = Modifier) {
 
         HvButton(
             onClick = {
-
+                navigateTo(Destination.Login, null)
             },
             modifier = Modifier
                 .padding(horizontal = 24.dp)
@@ -118,7 +126,7 @@ fun OnboardingScreen(modifier: Modifier = Modifier) {
         HvButton(
             containerColor = Color.Transparent,
             onClick = {
-
+                navigateTo(Destination.Register, null)
             },
             modifier = Modifier
                 .padding(horizontal = 24.dp)
