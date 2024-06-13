@@ -23,7 +23,7 @@ import com.anafthdev.ui.theme.HappyVibesTheme
 
 @Preview(showBackground = true)
 @Composable
-private fun AuthTextFieldPreview() {
+private fun AuthTextFieldWithTitlePreview() {
     HappyVibesTheme {
         AuthTextField(
             title = "Name",
@@ -33,12 +33,23 @@ private fun AuthTextFieldPreview() {
     }
 }
 
+@Preview(showBackground = true)
+@Composable
+private fun AuthTextFieldWithoutTitlePreview() {
+    HappyVibesTheme {
+        AuthTextField(
+            value = "Song Xinran",
+            onValueChange = {}
+        )
+    }
+}
+
 @Composable
 internal fun AuthTextField(
-    title: String,
     value: String,
     onValueChange: (String) -> Unit,
     modifier: Modifier = Modifier,
+    title: String? = null,
     enabled: Boolean = true,
     readOnly: Boolean = false,
     textStyle: TextStyle = LocalTextStyle.current,
@@ -60,12 +71,14 @@ internal fun AuthTextField(
     shape: Shape = RoundedCornerShape(20),
 ) {
     Column {
-        Text(
-            text = title,
-            style = MaterialTheme.typography.titleMedium.copy(
-                fontWeight = FontWeight.SemiBold
+        if (title != null) {
+            Text(
+                text = title,
+                style = MaterialTheme.typography.titleMedium.copy(
+                    fontWeight = FontWeight.SemiBold
+                )
             )
-        )
+        }
 
         OutlinedTextField(
             value = value,

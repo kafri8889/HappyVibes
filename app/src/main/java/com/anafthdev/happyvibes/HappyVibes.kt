@@ -33,6 +33,7 @@ private fun MainNavigation(modifier: Modifier = Modifier) {
         modifier = modifier
     ) {
         authNavigation(
+            navController = navController,
             navigateTo = navigateTo
         )
 

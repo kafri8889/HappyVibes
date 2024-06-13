@@ -14,10 +14,14 @@
     <string name="lets_sign_you_in">Ayo Masukkan Anda</string>
     <string name="lets_sign_you_in_sub">Oh, Hai! Selamat datang kembali di HappyVibes! Kami harap Anda selalu dalam suasana bahagia!</string>
     <string name="remember_me">Ingat saya</string>
-    <string name="forgot_password">Lupa kata sandi?</string>
+    <string name="forgot_password_ask">Lupa kata sandi?</string>
     <string name="or_login_with">Atau Masuk Dengan</string>
     <string name="login_with_google">Masuk Dengan Google</string>
     <string name="dont_have_an_account">Tidak Punya Akun?</string>
     <string name="register_now">Daftar Sekarang</string>
     <string name="have_an_account">Punya Akun?</string>
+    <string name="enter_the_email">Masukkan Email</string>
+    <string name="enter_your_registered_email_with">Masukkan email yang anda daftarkan</string>
+    <string name="forgot_password">Lupa Kata Sandi</string>
+    <string name="submit">Kirim</string>
 </resources>

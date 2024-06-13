@@ -14,4 +14,7 @@ sealed class Destination {
     @Serializable
     data object Login: Destination()
 
+    @Serializable
+    data object ForgotPassword: Destination()
+
 }

@@ -109,8 +109,10 @@ fun LoginScreen(
         onPasswordVisibilityChanged = viewModel::setShowPassword,
         onRememberMeChanged = viewModel::setRememberMe,
         onSignInClicked = {},
-        onForgotPasswordClicked = {},
         onLoginWithGoogleClicked = {},
+        onForgotPasswordClicked = {
+            navigateTo(Destination.ForgotPassword, null)
+        },
         onRegisterClicked = {
             navigateTo(Destination.Register) {
                 popUpTo(Destination.Login) {
@@ -399,7 +401,7 @@ private fun LoginTextFieldGroup(
             Spacer(modifier = Modifier.weight(1f))
 
             Text(
-                text = stringResource(id = R.string.forgot_password),
+                text = stringResource(id = R.string.forgot_password_ask),
                 textDecoration = TextDecoration.Underline,
                 style = MaterialTheme.typography.bodySmall.copy(
                     color = MaterialTheme.colorScheme.textGray

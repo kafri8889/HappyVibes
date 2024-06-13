@@ -14,10 +14,14 @@
     <string name="lets_sign_you_in">Let\'s Sign You In</string>
     <string name="lets_sign_you_in_sub">Oh, Hi! Welcome back to HappyVibes! We hopes you always in happy vibe!</string>
     <string name="remember_me">Remember me</string>
-    <string name="forgot_password">Forgot password?</string>
+    <string name="forgot_password_ask">Forgot password?</string>
     <string name="or_login_with">Or Login With</string>
     <string name="login_with_google">Login With Google</string>
     <string name="dont_have_an_account">Don\'t Have An Account?</string>
     <string name="register_now">Register Now</string>
     <string name="have_an_account">Have An Account?</string>
+    <string name="enter_the_email">Enter The Email</string>
+    <string name="enter_your_registered_email_with">Enter the email you registered with</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="submit">Submit</string>
 </resources>
